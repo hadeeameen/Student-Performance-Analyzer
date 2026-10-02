@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title>Form</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 20px;
+            }
+            h1 {
+                color: #333;
+            }
+            form {
+                margin-top: 20px;
+            }
+            input[type="file"] {
+                margin-bottom: 10px;
+            }
+            button {
+                padding: 5px 10px;
+                background-color: #4CAF50;
+                color: white;
+                border: none;
+                cursor: pointer;
+            }
+            button:hover {
+                background-color: #45a049;
+            }</style>
+    </head>
+    <body>
+        <h1>CSV File Analyzer</h1>
+        <form action="/register" method="POST" enctype="multipart/form-data">
+            Upload a CSV file: <input type="file" name="file"><br>
+            <button type="submit">Analyze CSV</button>
+        </form>
+    </body>
+</html>
