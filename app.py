@@ -21,7 +21,7 @@ def grade(mark):
 def form():
     return render_template("form.html")
 
-
+# bnbb
 
 
 @app.route("/register", methods=["POST"])
